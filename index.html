@@ -9,8 +9,11 @@
 <body>
 	
 	<div class="container">
-		<h1 class="site-title">Movies App</h1>
-		<div class="site-content">
+		<header role="site-header">
+			<h1 class="site-title" title="Movies App...">Movies App</h1>
+		</header> 
+		
+		<main class="site-content" role="main">
 			<section class="search">
 				<form class="search-form" action="https://echo.htmlacademy.ru" method="GET">
 					<label class="visually-hidden" for="title-input">Title</label>
@@ -40,12 +43,12 @@
 			</section>
 
 			<!-- WATCHLIST -->
-			<section class="watchlist">
+			<aside class="watchlist" role="aside">
 				<h2 class="watchlist__heading">Watchlist</h2>
 				<ul class="watchlist__list">
 				</ul>
-			</section>
-		</div>
+			</aside>
+		</main>
 	</div>
 
 	<!-- MODALS -->
